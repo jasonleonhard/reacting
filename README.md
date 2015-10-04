@@ -39,3 +39,15 @@
 ## start the server and navigate to localhost:3000
   
   rails s
+
+
+
+# now add react-rails
+
+	gem 'react-rails', github: 'reactjs/react-rails'
+	# or
+	gem 'react-rails'
+
+	bundle install
+
+	rails g react:install

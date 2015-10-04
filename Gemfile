@@ -42,9 +42,18 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # available on Bower. rails-assets.org, makes them instantly available to your Rails apps.
 # rails-assets isn’t a module system: This is a solution for pragmatic Rails developers that want to stay 
 # squarely on the golden path. rails-assets’ biggest benefit is that it works withinthe Rails Asset Pipeline.
+# https://rails-assets.org/
 source 'https://rails-assets.org' do
+  # gem 'rails-assets-jquery'
   gem 'rails-assets-bootstrap'
+  # gem 'rails-assets-angular'
+  # gem 'rails-assets-leaflet'
+
 end
+
+# gem 'react-rails', github: 'reactjs/react-rails'
+gem 'react-rails'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
