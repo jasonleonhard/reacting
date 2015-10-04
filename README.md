@@ -8,8 +8,6 @@
 	  gem 'rails-assets-bootstrap'
 	end
 
-###
-
 	bundle install
 
 ### application.css
