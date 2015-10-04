@@ -1,7 +1,7 @@
 // app/assets/javascripts/components/greeting.js.jsx
 var Greeting = React.createClass({
   render: function () {
-    return <h1>Hi {this.props.name}!</h1>;
+    return <h1>Hi {this.props.name}!</h1>; // properties
   }
 });
 
