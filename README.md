@@ -1,4 +1,6 @@
-# How to use rails-assets.org (example bootstrap) to load bower (front-end) assets into your rails (backend) pipeline.
+## How to use rails-assets.org (example bootstrap) 
+## to load bower (front-end) assets 
+## into your rails (backend) pipeline.
 
 ### Gemfile
 
