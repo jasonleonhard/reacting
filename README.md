@@ -1,6 +1,6 @@
-## How to use rails-assets.org (example bootstrap) 
-## to load bower (front-end) assets 
-## into your rails (backend) pipeline.
+#### How to use rails-assets.org (example bootstrap) 
+#### to load bower (front-end) assets 
+#### into your rails (backend) pipeline.
 
 ### Gemfile
 
@@ -27,20 +27,21 @@
 	//= require bootstrap
 	//= require_tree .
 
-### create a quick scaffold to see bootstrap in action
+### create a quick MVC (or scaffold) to see bootstrap in action
 
-	rails generate scaffold HighScore game:string score:integer
+	rails generate model welcome
+	rails generate controller Welcome 
+	touch app/views/welcome/index.html.erb
 	rake db:migrate
 
-## add a quick routes.rb root
+## add a quick routes.rb resources and root
 
-  root 'high_scores#index'
+	resources :welcome
+ 	root 'welcome#index'
 
 ## start the server and navigate to localhost:3000
   
-  rails s
-
-
+	rails s
 
 # now add react-rails
 
