@@ -31,4 +31,11 @@
 
 	rails generate scaffold HighScore game:string score:integer
 	rake db:migrate
-	rails s
+
+## add a quick routes.rb root
+
+  root 'high_scores#index'
+
+## start the server and navigate to localhost:3000
+  
+  rails s
