@@ -16,3 +16,4 @@ var ComponentName = React.createClass({
 
 // how to view this:
   // < % = react_component('ComponentName', { name: 'un5t0ppab13', bla: 'bla bla bla' }) % >
+  

@@ -46,7 +46,9 @@
 # now add react-rails
 
 	gem 'react-rails', github: 'reactjs/react-rails'
+	
 	# or
+	
 	gem 'react-rails'
 
 	bundle install
